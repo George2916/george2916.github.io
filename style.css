@@ -1,0 +1,51 @@
+.header {
+    background-color: ;
+    text-align: center;
+    font-family: 'Wendy One', sans-serif;
+    color: #00A8E8;
+}
+
+.nav{
+background-color: #;
+    font-family: 'Wendy One', sans-serif;
+    text-align: center;
+    color: #0B4F6C;
+}
+.nav li {
+    display: inline-block;
+    background-color: #9CEAEF;
+    padding: 5px 20px;
+}
+    
+/*This is the styling for the left and right divs of the index and index pages*/
+.left{
+    background-color:#00A8E8;
+    vertical-align: top;
+    width: 48%;
+    height: 1870px;
+    display: inline-block;
+}
+.right{
+    background-color: #C4FFF9;
+    vertical-align: top;
+    /*top: 60px;
+    left: 600px;*/
+    width: 48%;
+    height: 1870px;
+    /*margin-bottom: 0px;*/
+    display: inline-block;
+}
+
+/*check - do I need this styling any more?*/
+.right img{
+    width: 40%;
+    display: inline-block;
+}
+
+.images{
+    width: 40%;
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    
+}
