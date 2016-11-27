@@ -1,13 +1,48 @@
+/*colorscheme
+blue= #00A8E8
+green= #3DCCC7
+lighter green = #68D8D6
+lighter blue = #9CEAEF
+pale bluegeen= #C4FFF9
+text color = #0B4F6C
+*/
+
+
+/*This is the styling for the cover page*/
+
+.covertitle{
+    position: absolute;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+}
+
+.coverphoto{
+    width: 100%;
+    height: 100%;
+}
+
+/* resize images */
+.coverphoto img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*This is the styling for the top of the Aidan, Harrison and Miscellaneous pages*/
+
+
 .header {
     background-color: ;
     text-align: center;
-    font-family: 'Wendy One', sans-serif;
+    font-family: sans-serif;
     color: #00A8E8;
 }
 
 .nav{
-background-color: #;
-    font-family: 'Wendy One', sans-serif;
+    background-color: #;
+    font-family: sans-serif;
     text-align: center;
     color: #0B4F6C;
 }
@@ -17,35 +52,200 @@ background-color: #;
     padding: 5px 20px;
 }
     
-/*This is the styling for the left and right divs of the index and index pages*/
-.left{
+/*This is the styling for the left div of the aidan and harrison html pages*/
+
+.leftaidan{
     background-color:#00A8E8;
     vertical-align: top;
     width: 48%;
-    height: 1870px;
+    height: 2225px;
+    padding-left: 5px;
     display: inline-block;
 }
-.right{
+
+.leftharrison{
+    background-color:#00A8E8;
+    vertical-align: top;
+    width: 48%;
+    height: 2000px;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+/*This is the styling for the right div of the aidan and harrison html pages*/
+
+.rightaidan{
     background-color: #C4FFF9;
     vertical-align: top;
     /*top: 60px;
     left: 600px;*/
     width: 48%;
-    height: 1870px;
+    height: 2225px;
     /*margin-bottom: 0px;*/
     display: inline-block;
 }
 
-/*check - do I need this styling any more?*/
-.right img{
-    width: 40%;
+.rightharrison{
+    background-color: #C4FFF9;
+    vertical-align: top;
+    width: 48%;
+    height: 2000px;
     display: inline-block;
 }
 
-.images{
-    width: 40%;
+.photodiv{
+    width: 300px;
+    height: 200px;
     display: inline-block;
-    font-size: 10px;
-    text-align: center;
+}
+
+/* resize images */
+.photodiv img {
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.dates{
+   display: inline-block;
+   width:300px;
+   text-align: center;
+   font-size: 12px;
+}
+/*This is the styling for the Miscellaneous page*/
+
+.misc1{
+    background-color:#00A8E8;
+    vertical-align: top;
+    width: 48%;
+    height: 100px;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+.misc2{
+    background-color: #00A8E8;
+    vertical-align: top;
+    /*top: 60px;
+    left: 600px;*/
+    width: 48%;
+    height: 100px;
+    padding-left: 5px;
+    /*margin-bottom: 0px;*/
+    display: inline-block; 
+}
+
+
+.misc3{
+    background-color: #C4FFF9;
+    vertical-align: top;
+    width: 48%;
+    height: 100px;
+    padding-left: 5px;
+    display: inline-block;
     
 }
+
+.misc4{
+    background-color: #C4FFF9;
+    vertical-align: top;
+    /*top: 60px;
+    left: 600px;*/
+    width: 48%;
+    height: 100px;
+    padding-left: 5px;
+    /*margin-bottom: 0px;*/
+    display: inline-block;
+}
+
+#misc5{
+    background-color: #C4FFF9;
+    vertical-align: top;
+    width: 48%;
+    height: 200px;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+#misc6{
+    background-color: #C4FFF9;
+    vertical-align: top;
+    /*top: 60px;
+    left: 600px;*/
+    width: 48%;
+    height: 200px;
+    padding-left: 5px;
+    /*margin-bottom: 0px;*/
+    display: inline-block;
+}
+
+#misc6 a{
+    text-decoration: none;
+}
+
+.last2lines{
+    margin-left: 25px;
+}
+
+/*This is the styling for the family tree html page*/
+
+.firstgeneration{
+    width: 200px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.firstgeneration:nth-child(1){
+    border: 1px solid black;
+}
+.firstgeneration:nth-child(2){
+    border: 1px solid black;
+}
+.firstgeneration:nth-child(3){
+    border: 1px solid black;
+}
+
+
+.secondgeneration{
+    width: 200px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+.secondgeneration:nth-child(3){
+    border: 1px solid black;
+}
+.secondgeneration:nth-child(4){
+    border: 1px solid black;
+}
+.secondgeneration:nth-child(5){
+    border: 1px solid black;
+}
+.thirdgeneration{
+    width: 200px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+}
+.thirdgeneration:nth-child(3){
+    border: 1px solid black;
+}
+.thirdgeneration:nth-child(4){
+    border: 1px solid black;
+}
+.thirdgeneration:nth-child(5){
+    border: 1px solid black;
+}
+.fourthgeneration{
+    width: 200px;
+    height: 125px;
+    display: inline-block;
+    vertical-align: top;
+}
+.fourthgeneration:nth-child(3){
+    border: 1px solid black;
+}
+
+
+
