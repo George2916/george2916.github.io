@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="js/jquery-3.2.1.js"></script>
+
+<script>
+ 
+function myFunction() {
+ if ($(window).width() <=767) {
+     $('#paragraph').css('font-size', '150%');
+    }
+else {
+    $('#paragraph').css('font-size', '100%');
+    }
+}
+
+$(document).ready(myFunction);
+$(window).resize(myFunction);
+
+</script>
+
+</head>
+
+<body>
+
+<p id="paragraph"><strong>in eternal lines to Time thou growest</strong>: my verse makes you as eternal at Time itself.</p>
+ 
+</body>
+</html>
+
