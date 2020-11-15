@@ -7,8 +7,46 @@ function chooseHomepagePicture() {
     
     var randomNumber = Math.floor(Math.random() * myHomepagePictures.length);
     document.getElementById("homepagePicture").src = myHomepagePictures[randomNumber];
+    document.getElementById("homepagePicture2").src = myHomepagePictures[randomNumber];
     
+    
+    if (randomNumber  === 0) {
+        document.getElementById('modalCaption').innerHTML = "April 2004";
+    }
+    
+    else if (randomNumber === 1) {
+        document.getElementById('modalCaption').innerHTML = "April 2006";
+    }
+    
+    else if (randomNumber === 2) {
+        document.getElementById('modalCaption').innerHTML = "April 2009";
+    }
+    else if (randomNumber === 3) {
+        document.getElementById('modalCaption').innerHTML = "September 2009";
+    }
+    else if (randomNumber === 4) {
+        document.getElementById('modalCaption').innerHTML = "September 2009";
+    }
+    else if (randomNumber === 5) {
+        document.getElementById('modalCaption').innerHTML = "December 2009";
+    }
+    else if (randomNumber === 6) {
+        document.getElementById('modalCaption').innerHTML = "February 2010";
+    }
+    
+    else if (randomNumber === 7) {
+        document.getElementById('modalCaption').innerHTML = "April 2011";
+    }
+    
+    else if (randomNumber === 8) {
+        document.getElementById('modalCaption').innerHTML = "May 2015";
+    }
+    
+    else {
+        document.getElementById('modalCaption').innerHTML = "July 2017";
+    }
 }
+
 
 
 /* when the user clicks on the Top button, scroll to the top of the document */
