@@ -119,14 +119,14 @@ function mySetupFunction1() {
         $('.box4').css('background-color', '#C4FFF9');
         $('.box5').css('background-color', '#00A8E8');
         $('.box6').css('display', 'none');
-        $('.box7').css({'background-color': '#C4FFF9', 'height': '120px'});
+        $('.box7').css('background-color', '#C4FFF9');
         $('.box8').css('background-color', '#00A8E8');
         $('.box9').css('background-color', '#C4FFF9');
         $('.box10').css({'background-color': '#00A8E8', 'overflow': 'scroll'});
         $('.box11').css('background-color', '#C4FFF9');
-        $('.box12').css('display', 'none');
-        $('.box13').css({'background-color': '#00A8E8', 'height': '200px', 'overflow': 'scroll'});
-        $('.box14').css('background-color', '#C4FFF9');
+        $('.box12').css('background-color', '#00A8E8');
+        $('.box13').css({'background-color': '#C4FFF9', 'height': '200px', 'overflow': 'scroll'});
+        $('.box14').css({'background-color': '#00A8E8', 'height': '100px'});
         $('.misc-link-1').css('color', '#9CEAEF');
         $('.misc-link-2').css('color', '#3DCCC7');
         $('.misc-link-3').css('color', '#9CEAEF');
@@ -137,10 +137,14 @@ function mySetupFunction1() {
         $('.misc-link-9').css('color', '#3DCCC7');
         $('.misc-link-10').css('color', '#9CEAEF');
         $('.misc-link-11').css('color', '#3DCCC7');
+        $('.misc-link-12').css('color', '#9CEAEF');
+        $('.misc-link-13').css('color', '#3DCCC7');
         $('.last2lines').css('margin-left', '0px');
         $('.hiddenFTbox').css('display', 'none');
+        $('.hiddenText').css('display', 'none');
         
-        $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-8, .misc-link-10').hover(
+        
+        $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-8, .misc-link-10, .misc-link-12').hover(
         function(){
             $(this).css('color', '#26789B');
         },
@@ -150,7 +154,7 @@ function mySetupFunction1() {
         }
         );
         
-        $('.misc-link-2, .misc-link-4, .misc-link-7, .misc-link-9, .misc-link-11').hover(
+        $('.misc-link-2, .misc-link-4, .misc-link-7, .misc-link-9, .misc-link-11, .misc-link-13').hover(
         function(){
             $(this).css('color', '#26789B');
         },
@@ -162,49 +166,47 @@ function mySetupFunction1() {
     
     else if ($(window).width() <=767) {
         $('.YouTubeVideo').css({'width': '306px', 'height': '196.63px'});
-        $('.box1').css({'background-color': '#00A8E8', 'font-size': '92%'});
-        $('.box2').css({'background-color': '#C4FFF9', 'font-size': '92%'});
-        $('.box3').css({'background-color': '#C4FFF9', 'font-size': '92%'});
-        $('.box4').css({'background-color': '#00A8E8', 'font-size': '92%'});
-        $('.box5').css({'background-color': '#00A8E8', 'font-size': '92%'});
-        $('.box6').css({'background-color': '#C4FFF9', 'font-size': '92%'});
-        $('.box6').html('Click <a class="misc-link-6" href="https://www.youtube.com/watch?v=20NaDtPwYS0&feature=youtu.be" target="_blank">here</a> to watch Aidan and Harrison singing "My Favorite Things" with their sisters and their future step-brother in May 2016.');
-        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '92%'});
-        $('.box7').html('Click <a class="misc-link-7" href="https://www.youtube.com/watch?v=VKUF4Ff5TMk" target="_blank">here</a> to watch Uncle George, Aidan and Harrison throwing a football in Topsfield in July 2017.');
-        $('.box8').css({'background-color': '#00A8E8', 'font-size': '92%'});
-        $('.box8').html('Click <a class="misc-link-8" href="" target="_blank">here</a> to view the web page of cousins Sarah Jane and Laurel Marie Ansbrow.');
-        $('.box9').css({'background-color': '#00A8E8', 'font-size': '79%'});
-        $('.box9').html('If one were to desire to listen to the paterfamilias of Aiden and Harrison snoring, with commentary by his twin brother Ken, one might consider clicking <a class="misc-link-9" href="" target="_blank">here</a>.');
-        $('.box10').css('background-color', '#C4FFF9');
-        $('.box10').html('In 2012, Harrison received a gift from cousin George and sent him a very nice <a class="misc-link-11" href="cardFromHW.html">thank you card</a>.');
-        $('.box11').css('display', 'none');
-        $('.box12').css('display', 'none');
-        $('.box13').css({'background-color': '#C4FFF9', 'font-size': '92%', 'height': '200px', 'overflow': 'scroll'});
-        $('.box14').css({'background-color': '#00A8E8', 'font-size': '92%', 'height': '200px'});
+        $('.box1').css('background-color', '#00A8E8');
+        $('.box2').css('background-color', '#C4FFF9');  
+        $('.box3').css('background-color', '#00A8E8');
+        $('.box4').css('background-color', '#C4FFF9');
+        $('.box5').css('background-color', '#00A8E8');
+        $('.box6').css('display', 'none');
+        $('.box7').css('background-color', '#C4FFF9');
+        $('.box8').css('background-color', '#00A8E8');
+        $('.box9').css('background-color', '#C4FFF9');
+        $('.box10').css({'background-color': '#00A8E8', 'overflow': 'scroll'});
+        $('.box11').css('background-color', '#C4FFF9');
+        $('.box12').css('background-color', '#00A8E8');
+        $('.box13').css({'background-color': '#C4FFF9', 'height': '200px', 'overflow': 'scroll'});
+        $('.box14').css({'background-color': '#00A8E8', 'height': '100px'});
         $('.misc-link-1').css('color', '#9CEAEF');
         $('.misc-link-2').css('color', '#3DCCC7');
-        $('.misc-link-3').css('color', '#3DCCC7');
-        $('.misc-link-4').css('color', '#9CEAEF');
+        $('.misc-link-3').css('color', '#9CEAEF');
+        $('.misc-link-4').css('color', '#3DCCC7');
         $('.misc-link-5').css('color', '#9CEAEF');
-        $('.misc-link-6').css('color', '#3DCCC7');
         $('.misc-link-7').css('color', '#3DCCC7');
         $('.misc-link-8').css('color', '#9CEAEF');
-        $('.misc-link-9').css('color', '#9CEAEF');
+        $('.misc-link-9').css('color', '#3DCCC7');
+        $('.misc-link-10').css('color', '#9CEAEF');
         $('.misc-link-11').css('color', '#3DCCC7');
+        $('.misc-link-12').css('color', '#9CEAEF');
         $('.misc-link-13').css('color', '#3DCCC7');
         $('.last2lines').css('margin-left', '0px');
         $('.hiddenFTbox').css('display', 'none');
+        $('.hiddenText').css('display', 'none');
         
-        $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-8, .misc-link-9').hover(
+         $('.misc-link-1, .misc-link-3, .misc-link-5, .misc-link-8, .misc-link-10, .misc-link-12').hover(
         function(){
             $(this).css('color', '#26789B');
         },
+        
         function(){
             $(this).css('color', '#9CEAEF');
         }
         );
         
-       $('.misc-link-2, .misc-link-3, .misc-link-6, .misc-link-7, .misc-link-11, .misc-link-13').hover(
+        $('.misc-link-2, .misc-link-4, .misc-link-7, .misc-link-9, .misc-link-11, .misc-link-13').hover(
         function(){
             $(this).css('color', '#26789B');
         },
@@ -228,8 +230,8 @@ function mySetupFunction1() {
         $('.box10').css({'background-color': '#C4FFF9', 'font-size': '92%'});
         $('.box11').css({'background-color': '#C4FFF9', 'font-size': '92%'});
         $('.box12').css({'background-color': '#00A8E8', 'font-size': '92%'});
-        $('.box13').css({'background-color': '#00A8E8', 'font-size': '92%', 'height': '280px'});
-        $('.box14').css({'background-color': '#C4FFF9', 'font-size': '92%', 'height': '280px'});
+        $('.box13').css({'background-color': '#00A8E8', 'font-size': '85%', 'height': '370px'});
+        $('.box14').css({'background-color': '#C4FFF9', 'font-size': '92%', 'height': '370px'});
         $('.misc-link-1').css('color', '#9CEAEF');
         $('.misc-link-2').css('color', '#3DCCC7');
         $('.misc-link-3').css('color', '#3DCCC7');
@@ -241,11 +243,13 @@ function mySetupFunction1() {
         $('.misc-link-9').css('color', '#9CEAEF');
         $('.misc-link-10').css('color', '#3DCCC7');
         $('.misc-link-11').css('color', '#3DCCC7');
+        $('.misc-link-12').css('color', '#9CEAEF');
         $('.misc-link-13').css('color', '#9CEAEF');
         $('.last2lines').css('margin-left', '0px');
         $('.hiddenFTbox').css('display', 'none');
+        $('.hiddenText').css('display', 'none');
         
-        $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-8, .misc-link-9, .misc-link-13').hover(
+        $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-8, .misc-link-9, .misc-link-12, .misc-link-13').hover(
         function(){
             $(this).css('color', '#26789B');
         },
@@ -278,8 +282,8 @@ function mySetupFunction1() {
         $('.box10').css({'background-color': '#C4FFF9', 'font-size': '100%'});
         $('.box11').css({'background-color': '#C4FFF9', 'font-size': '100%'});
         $('.box12').css({'background-color': '#00A8E8', 'font-size': '100%'});
-        $('.box13').css({'background-color': '#00A8E8', 'font-size': '96%', 'height': '230px'});
-        $('.box14').css({'background-color': '#C4FFF9', 'font-size': '100%', 'height': '230px'});
+        $('.box13').css({'background-color': '#00A8E8', 'font-size': '96%', 'height': '370px'});
+        $('.box14').css({'background-color': '#C4FFF9', 'font-size': '100%', 'height': '370px'});
         $('.misc-link-1').css('color', '#9CEAEF');
         $('.misc-link-2').css('color', '#3DCCC7');
         $('.misc-link-3').css('color', '#3DCCC7');
@@ -291,6 +295,7 @@ function mySetupFunction1() {
         $('.misc-link-9').css('color', '#9CEAEF');
         $('.misc-link-10').css('color', '#3DCCC7');
         $('.misc-link-11').css('color', '#3DCCC7');
+        $('.misc-link-12').css('color', '#9CEAEF');
         $('.misc-link-13').css('color', '#9CEAEF');
         $('.last2lines').css('margin-left', '25px');
         $('.bringUp1').css({'position': 'relative', 'bottom': '60px'});  
@@ -332,8 +337,8 @@ function mySetupFunction1() {
         $('.box10').css({'background-color': '#C4FFF9', 'font-size': '100%'});
         $('.box11').css({'background-color': '#C4FFF9', 'font-size': '100%'});
         $('.box12').css({'background-color': '#00A8E8', 'font-size': '100%'});
-        $('.box13').css({'background-color': '#00A8E8', 'font-size': '100%', 'height': '230px'});
-        $('.box14').css({'background-color': '#C4FFF9', 'font-size': '100%', 'height': '230px'});
+        $('.box13').css({'background-color': '#00A8E8', 'font-size': '100%', 'height': '370px'});
+        $('.box14').css({'background-color': '#C4FFF9', 'font-size': '100%', 'height': '370px'});
         $('.misc-link-1').css('color', '#9CEAEF');
         $('.misc-link-2').css('color', '#3DCCC7');
         $('.misc-link-3').css('color', '#3DCCC7');
@@ -345,6 +350,7 @@ function mySetupFunction1() {
         $('.misc-link-9').css('color', '#9CEAEF');
         $('.misc-link-10').css('color', '#3DCCC7');
         $('.misc-link-11').css('color', '#3DCCC7');
+        $('.misc-link-12').css('color', '#9CEAEF');
         $('.misc-link-13').css('color', '#9CEAEF');
         $('.last2lines').css('margin-left', '25px');
         $('.bringUp1').css({'position': 'relative', 'bottom': '110px'});  
@@ -354,7 +360,7 @@ function mySetupFunction1() {
         $('.bringUp5').css({'position': 'relative', 'bottom': '110px'});  
         $('.bringUp6').css({'position': 'relative', 'bottom': '110px'});
                         
-        $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-8, .misc-link-9, .misc-link-13').hover(
+        $('.misc-link-1, .misc-link-4, .misc-link-5, .misc-link-8, .misc-link-9, .misc-link-12, .misc-link-13').hover(
         function(){
             $(this).css('color', '#26789B');
         },
