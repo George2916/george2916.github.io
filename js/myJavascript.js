@@ -119,12 +119,12 @@ function mySetupFunction1() {
         $('.box4').css('background-color', '#C4FFF9');
         $('.box5').css('background-color', '#00A8E8');
         $('.box6').css('display', 'none');
-        $('.box7').css('background-color', '#C4FFF9');
+        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '92%'});
         $('.box8').css('background-color', '#00A8E8');
         $('.box9').css('background-color', '#C4FFF9');
-        $('.box10').css({'background-color': '#00A8E8', 'overflow': 'scroll'});
+        $('.box10').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box11').css('background-color', '#C4FFF9');
-        $('.box12').css('background-color', '#00A8E8');
+        $('.box12').css({'background-color': '#00A8E8', 'font-size': '95%'});
         $('.box13').css({'background-color': '#C4FFF9', 'height': '200px', 'overflow': 'scroll'});
         $('.box14').css({'background-color': '#00A8E8', 'height': '100px'});
         $('.misc-link-1').css('color', '#9CEAEF');
