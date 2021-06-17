@@ -1391,4 +1391,57 @@ flipAgain();
 flipYetAgain();
 unFlip();
 
+function pingreeProgramFlip() {
+  var x = document.getElementById("pingreeProgram1");
+  var y = document.getElementById("pingreeProgram2");
+  x.style.display = "none";
+  y.style.display = "block";
+}
 
+function pingreeProgramSecondFlip() {
+  var x = document.getElementById("pingreeProgram2");
+  var y = document.getElementById("pingreeProgram3");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function pingreeProgramThirdFlip() {
+  var x = document.getElementById("pingreeProgram3");
+  var y = document.getElementById("pingreeProgram4");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function pingreeProgramFourthFlip() {
+  var x = document.getElementById("pingreeProgram4");
+  var y = document.getElementById("pingreeProgram5");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function pingreeProgramFifthFlip() {
+  var x = document.getElementById("pingreeProgram5");
+  var y = document.getElementById("pingreeProgram6");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function pingreeProgramSixthFlip() {
+  var x = document.getElementById("pingreeProgram6");
+  var y = document.getElementById("pingreeProgram7");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function pingreeProgramSeventhFlip() {
+  var x = document.getElementById("pingreeProgram7");
+  var y = document.getElementById("pingreeProgram8");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+function pingreeProgramUnflip() {
+  var x = document.getElementById("pingreeProgram8");
+  var y = document.getElementById("pingreeProgram1");
+  x.style.display = "none";
+  y.style.display = "block";
+}
