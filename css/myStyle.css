@@ -366,6 +366,10 @@ table {
     margin-bottom: 20px;
 }
 
+.pic-front:hover, .pic-back:hover{
+  cursor: grab;
+}
+
 .cardText{
   color: #26789b;
 }
@@ -375,22 +379,6 @@ table {
     line-height: 99%;
     color: #0B4F6C;
     
-}
-
-#front1:hover{
-  cursor: grab;
-}
-
-#back1-1:hover{
-  cursor: grab;
-}
-
-#back1-2:hover{
-  cursor: grab;
-}
-
-#back1-3:hover{
-  cursor: grab;
 }
 
 /*STYLING FOR ancestors.html*/

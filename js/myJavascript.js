@@ -108,6 +108,61 @@ function mySetupFunctionX() {
 $(document).ready(mySetupFunctionX);
 $(window).resize(mySetupFunctionX);
 
+function pingreeProgramFlip() {
+  var x = document.getElementById("pingreeProgram1");
+  var y = document.getElementById("pingreeProgram2");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function pingreeProgramSecondFlip() {
+  var x = document.getElementById("pingreeProgram2");
+  var y = document.getElementById("pingreeProgram3");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function pingreeProgramThirdFlip() {
+  var x = document.getElementById("pingreeProgram3");
+  var y = document.getElementById("pingreeProgram4");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function pingreeProgramFourthFlip() {
+  var x = document.getElementById("pingreeProgram4");
+  var y = document.getElementById("pingreeProgram5");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function pingreeProgramFifthFlip() {
+  var x = document.getElementById("pingreeProgram5");
+  var y = document.getElementById("pingreeProgram6");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function pingreeProgramSixthFlip() {
+  var x = document.getElementById("pingreeProgram6");
+  var y = document.getElementById("pingreeProgram7");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function pingreeProgramSeventhFlip() {
+  var x = document.getElementById("pingreeProgram7");
+  var y = document.getElementById("pingreeProgram8");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+function pingreeProgramUnflip() {
+  var x = document.getElementById("pingreeProgram8");
+  var y = document.getElementById("pingreeProgram1");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
 /* JQUERY AND JAVASCRIPT FOR MISCELLANEOUS PAGE AND FAMILY TREE*/
 
 function mySetupFunction1() {
@@ -123,9 +178,9 @@ function mySetupFunction1() {
         $('.box8').css('background-color', '#00A8E8');
         $('.box9').css('background-color', '#C4FFF9');
         $('.box10').css({'background-color': '#00A8E8', 'font-size': '92%'});
-        $('.box11').css('background-color', '#C4FFF9');
+        $('.box11').css({'background-color': '#C4FFF9', 'font-size': '78%'});
         $('.box12').css({'background-color': '#00A8E8', 'font-size': '95%'});
-        $('.box13').css({'background-color': '#C4FFF9', 'height': '200px', 'overflow': 'scroll'});
+        $('.box13').css({'background-color': '#C4FFF9', 'font-size': '92%', 'height': '200px', 'overflow': 'scroll'});
         $('.box14').css({'background-color': '#00A8E8', 'height': '100px'});
         $('.misc-link-1').css('color', '#9CEAEF');
         $('.misc-link-2').css('color', '#3DCCC7');
@@ -176,7 +231,7 @@ function mySetupFunction1() {
         $('.box8').css('background-color', '#00A8E8');
         $('.box9').css('background-color', '#C4FFF9');
         $('.box10').css({'background-color': '#00A8E8', 'overflow': 'scroll'});
-        $('.box11').css('background-color', '#C4FFF9');
+        $('.box11').css({'background-color': '#C4FFF9', 'font-size': '88%'});
         $('.box12').css('background-color', '#00A8E8');
         $('.box13').css({'background-color': '#C4FFF9', 'height': '200px', 'overflow': 'scroll'});
         $('.box14').css({'background-color': '#00A8E8', 'height': '100px'});
@@ -228,8 +283,8 @@ function mySetupFunction1() {
         $('.box8').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box9').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box10').css({'background-color': '#C4FFF9', 'font-size': '92%'});
-        $('.box11').css({'background-color': '#C4FFF9', 'font-size': '92%'});
-        $('.box12').css({'background-color': '#00A8E8', 'font-size': '92%'});
+        $('.box11').css({'background-color': '#C4FFF9', 'font-size': '78%'});
+        $('.box12').css({'background-color': '#00A8E8', 'font-size': '88%'});
         $('.box13').css({'background-color': '#00A8E8', 'font-size': '85%', 'height': '370px'});
         $('.box14').css({'background-color': '#C4FFF9', 'font-size': '92%', 'height': '370px'});
         $('.misc-link-1').css('color', '#9CEAEF');
@@ -280,7 +335,7 @@ function mySetupFunction1() {
         $('.box8').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box9').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box10').css({'background-color': '#C4FFF9', 'font-size': '100%'});
-        $('.box11').css({'background-color': '#C4FFF9', 'font-size': '100%'});
+        $('.box11').css({'background-color': '#C4FFF9', 'font-size': '85%'});
         $('.box12').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box13').css({'background-color': '#00A8E8', 'font-size': '96%', 'height': '370px'});
         $('.box14').css({'background-color': '#C4FFF9', 'font-size': '100%', 'height': '370px'});

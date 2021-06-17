@@ -455,9 +455,9 @@ function myFunction1() {
     
     else if (window.matchMedia('(max-width: 675px)').matches) {
     
-    tableHead.innerHTML = 'Dynamic Scoring Personality Questionnaire<br>Administered August 2013 (for Haley K., Abigail M. and Colin D.) /<br>&nbsp;July 2018 (Abigail M.) or May 2019 (Colin D.)';
+    tableHead.innerHTML = 'Dynamic Scoring Personality Questionnaire<br>Administered August 2013 (for Haley C., Abigail M. and Colin D.) /<br>&nbsp;July 2018 (Abigail M.) or May 2019 (Colin D.)';
     ques0.innerHTML = '';
-    HK0.innerHTML = 'Haley K.';
+    HK0.innerHTML = 'Haley C.';
     AM0.innerHTML = 'Abigail M.';
     CD0.innerHTML = 'Colin D.';
     ques1.innerHTML = '&nbsp;What is your favorite<br>&nbsp;sport to play?';
@@ -800,9 +800,9 @@ function myFunction1() {
     
     else if (window.matchMedia('(max-width: 1199px)').matches) {
     
-    tableHead.innerHTML = 'Dynamic Scoring Personality Questionnaire<br>Administered August 2013 (for Haley K., Abigail M. and Colin D.) /<br>July 2018 (Abigail M.) or May 2019 (Colin D.)';     
+    tableHead.innerHTML = 'Dynamic Scoring Personality Questionnaire<br>Administered August 2013 (for Haley C., Abigail M. and Colin D.) /<br>July 2018 (Abigail M.) or May 2019 (Colin D.)';     
     ques0.innerHTML = '';
-    HK0.innerHTML = 'Haley K. Greenslade';
+    HK0.innerHTML = 'Haley C. Greenslade';
     AM0.innerHTML = 'Abigail M. Greenslade';
     CD0.innerHTML = 'Colin D. Tomaselli-<br>Greenslade';
     ques1.innerHTML = '&nbsp;What is your favorite sport to play?';
@@ -917,7 +917,7 @@ function myFunction1() {
     
     tableHead.innerHTML = 'Dynamic Scoring Personality Questionnaire<br>Administered August 2013 (for HKG, AMG and CDTG) /<br>July 2018 (AMG) or May 2019 (CDTG)';     
     ques0.innerHTML = '';
-    HK0.innerHTML = 'Haley Kathleen Greenslade';
+    HK0.innerHTML = 'Haley Cathleen Greenslade';
     AM0.innerHTML = 'Abigail Maeve Greenslade';
     CD0.innerHTML = 'Colin Daniel<br>Tomaselli-Greenslade';
     ques1.innerHTML = '&nbsp;What is your favorite sport to play?';
