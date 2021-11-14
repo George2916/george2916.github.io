@@ -1,4 +1,4 @@
-/* JAVASCRIPT FOR HOME PAGE - CAUSE 1 OF 6 PICTURES TO RANDOMLY APPEAR ON HOME PAGE */
+/* JAVASCRIPT FOR HOME PAGE - CAUSE 1 OF 10 PICTURES TO RANDOMLY APPEAR ON HOME PAGE */
 
 window.onload = chooseHomepagePicture;
 var myHomepagePictures = ["images/2004april(3).JPG", "images/2006april(2).JPG", "images/2009april(1A).JPG", "images/2009sept(1).JPG", "images/2009sept(2).JPG", "images/2009dec(2).JPG", "images/2010feb(1).JPG", "images/2011april(1A).JPG", "images/2015may(1).JPG", "images/2017july(2).JPG"];
@@ -6,9 +6,9 @@ var myHomepagePictures = ["images/2004april(3).JPG", "images/2006april(2).JPG", 
 function chooseHomepagePicture() {
     
     var randomNumber = Math.floor(Math.random() * myHomepagePictures.length);
+    
     document.getElementById("homepagePicture").src = myHomepagePictures[randomNumber];
     document.getElementById("homepagePicture2").src = myHomepagePictures[randomNumber];
-    
     
     if (randomNumber  === 0) {
         document.getElementById('modalCaption').innerHTML = "April 2004";
@@ -46,8 +46,6 @@ function chooseHomepagePicture() {
         document.getElementById('modalCaption').innerHTML = "July 2017";
     }
 }
-
-
 
 /* when the user clicks on the Top button, scroll to the top of the document */
 
@@ -108,60 +106,6 @@ function mySetupFunctionX() {
 $(document).ready(mySetupFunctionX);
 $(window).resize(mySetupFunctionX);
 
-function pingreeProgramFlip() {
-  var x = document.getElementById("pingreeProgram1");
-  var y = document.getElementById("pingreeProgram2");
-  x.style.display = "none";
-  y.style.display = "block";
-}
-
-function pingreeProgramSecondFlip() {
-  var x = document.getElementById("pingreeProgram2");
-  var y = document.getElementById("pingreeProgram3");
-  x.style.display = "none";
-  y.style.display = "block";
-}
-
-function pingreeProgramThirdFlip() {
-  var x = document.getElementById("pingreeProgram3");
-  var y = document.getElementById("pingreeProgram4");
-  x.style.display = "none";
-  y.style.display = "block";
-}
-
-function pingreeProgramFourthFlip() {
-  var x = document.getElementById("pingreeProgram4");
-  var y = document.getElementById("pingreeProgram5");
-  x.style.display = "none";
-  y.style.display = "block";
-}
-
-function pingreeProgramFifthFlip() {
-  var x = document.getElementById("pingreeProgram5");
-  var y = document.getElementById("pingreeProgram6");
-  x.style.display = "none";
-  y.style.display = "block";
-}
-
-function pingreeProgramSixthFlip() {
-  var x = document.getElementById("pingreeProgram6");
-  var y = document.getElementById("pingreeProgram7");
-  x.style.display = "none";
-  y.style.display = "block";
-}
-
-function pingreeProgramSeventhFlip() {
-  var x = document.getElementById("pingreeProgram7");
-  var y = document.getElementById("pingreeProgram8");
-  x.style.display = "none";
-  y.style.display = "block";
-}
-function pingreeProgramUnflip() {
-  var x = document.getElementById("pingreeProgram8");
-  var y = document.getElementById("pingreeProgram1");
-  x.style.display = "none";
-  y.style.display = "block";
-}
 
 /* JQUERY AND JAVASCRIPT FOR MISCELLANEOUS PAGE AND FAMILY TREE*/
 
