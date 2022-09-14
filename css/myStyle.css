@@ -22,7 +22,7 @@ a:hover {
     white-space: pre-wrap;
 }
 
-.hWithSentences {
+.Sentences {
     white-space: pre-wrap;
 }
 
@@ -447,4 +447,37 @@ table {
 	font-size: 225%;
 	letter-spacing: -6px;
 	line-height: 110%;
+}
+
+/*STYLING FOR anecdotes.html*/
+
+.anecdotesBackground1{
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #C4FFF9; 
+    background-color: #00A8E8;
+    padding: 20px 20px 0px 20px
+}
+
+.anecdotesBackground2{
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: #C4FFF9; 
+    background-color: #00A8E8;
+    padding: 20px 20px 20px 20px
+}
+
+.anecdotesText1{
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    padding: 0px 50px;
+    text-align: center;
+}
+
+.anecdotesText2{
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    padding: 0px 60px;
+    text-align: center;
+    
 }
