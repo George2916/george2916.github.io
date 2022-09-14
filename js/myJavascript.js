@@ -107,7 +107,7 @@ $(document).ready(mySetupFunctionX);
 $(window).resize(mySetupFunctionX);
 
 
-/* JQUERY AND JAVASCRIPT FOR MISCELLANEOUS PAGE AND FAMILY TREE*/
+/* JQUERY AND JAVASCRIPT FOR 11MISCELLANEOUS PAGE AND FAMILY TREE*/
 
 function mySetupFunction1() {
     if ($(window).width() <= 575) {
@@ -118,7 +118,7 @@ function mySetupFunction1() {
         $('.box4').css('background-color', '#C4FFF9');
         $('.box5').css('background-color', '#00A8E8');
         $('.box6').css('display', 'none');
-        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '92%'});
+        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '78%'});
         $('.box8').css('background-color', '#00A8E8');
         $('.box9').css('background-color', '#C4FFF9');
         $('.box10').css({'background-color': '#00A8E8', 'font-size': '92%'});
@@ -171,7 +171,8 @@ function mySetupFunction1() {
         $('.box4').css('background-color', '#C4FFF9');
         $('.box5').css('background-color', '#00A8E8');
         $('.box6').css('display', 'none');
-        $('.box7').css('background-color', '#C4FFF9');
+        $('.box7').css({'background-color': '#C4FFF9', 'font-size':
+        '88%'});
         $('.box8').css('background-color', '#00A8E8');
         $('.box9').css('background-color', '#C4FFF9');
         $('.box10').css({'background-color': '#00A8E8', 'overflow': 'scroll'});
@@ -223,7 +224,7 @@ function mySetupFunction1() {
         $('.box4').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box5').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box6').css({'background-color': '#C4FFF9', 'font-size': '92%'});
-        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '92%'});
+        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '78%'});
         $('.box8').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box9').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box10').css({'background-color': '#C4FFF9', 'font-size': '92%'});
@@ -275,7 +276,7 @@ function mySetupFunction1() {
         $('.box4').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box5').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box6').css('background-color', '#C4FFF9');
-        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '100%'});
+        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '85%'});
         $('.box8').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box9').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box10').css({'background-color': '#C4FFF9', 'font-size': '100%'});
