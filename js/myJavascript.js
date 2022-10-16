@@ -112,13 +112,13 @@ $(window).resize(mySetupFunctionX);
 function mySetupFunction1() {
     if ($(window).width() <= 575) {
         $('.YouTubeVideo').css({'width': '306px', 'height': '168.75px'});
-        $('.box1').css('background-color', '#00A8E8');
+        $('.box1').css({'background-color': '#00A8E8', 'font-size': '78%'});
         $('.box2').css('background-color', '#C4FFF9');  
         $('.box3').css('background-color', '#00A8E8');
         $('.box4').css('background-color', '#C4FFF9');
         $('.box5').css('background-color', '#00A8E8');
         $('.box6').css('display', 'none');
-        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '78%'});
+        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '95%'});
         $('.box8').css('background-color', '#00A8E8');
         $('.box9').css('background-color', '#C4FFF9');
         $('.box10').css({'background-color': '#00A8E8', 'font-size': '92%'});
