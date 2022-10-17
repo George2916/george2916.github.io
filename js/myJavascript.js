@@ -171,8 +171,7 @@ function mySetupFunction1() {
         $('.box4').css('background-color', '#C4FFF9');
         $('.box5').css('background-color', '#00A8E8');
         $('.box6').css('display', 'none');
-        $('.box7').css({'background-color': '#C4FFF9', 'font-size':
-        '88%'});
+        $('.box7').css('background-color', '#C4FFF9');
         $('.box8').css('background-color', '#00A8E8');
         $('.box9').css('background-color', '#C4FFF9');
         $('.box10').css({'background-color': '#00A8E8', 'overflow': 'scroll'});
@@ -218,13 +217,13 @@ function mySetupFunction1() {
     
     else if ($(window).width() <= 991) {
         $('.YouTubeVideo').css({'width': '310px', 'height': '196.63px'});
-        $('.box1').css({'background-color': '#00A8E8', 'font-size': '92%'});
+        $('.box1').css({'background-color': '#00A8E8', 'font-size': '78%'});
         $('.box2').css({'background-color': '#C4FFF9', 'font-size': '92%'});
         $('.box3').css({'background-color': '#C4FFF9', 'font-size': '92%'});
         $('.box4').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box5').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box6').css({'background-color': '#C4FFF9', 'font-size': '92%'});
-        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '78%'});
+        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '92%'});
         $('.box8').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box9').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box10').css({'background-color': '#C4FFF9', 'font-size': '92%'});
@@ -270,13 +269,13 @@ function mySetupFunction1() {
                
     else if ($(window).width() <= 1199) {
         $('.YouTubeVideo').css({'width': '310px', 'height': '196.63px'});
-        $('.box1').css({'background-color': '#00A8E8', 'font-size': '100%'});
+        $('.box1').css({'background-color': '#00A8E8', 'font-size': '85%'});
         $('.box2').css({'background-color': '#C4FFF9', 'font-size': '100%'});  
         $('.box3').css({'background-color': '#C4FFF9', 'font-size': '100%'});
         $('.box4').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box5').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box6').css('background-color', '#C4FFF9');
-        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '85%'});
+        $('.box7').css({'background-color': '#C4FFF9', 'font-size': '100%'});
         $('.box8').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box9').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box10').css({'background-color': '#C4FFF9', 'font-size': '100%'});
