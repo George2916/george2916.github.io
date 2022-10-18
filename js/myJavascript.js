@@ -165,7 +165,7 @@ function mySetupFunction1() {
     
     else if ($(window).width() <=767) {
         $('.YouTubeVideo').css({'width': '306px', 'height': '196.63px'});
-        $('.box1').css('background-color', '#00A8E8');
+        $('.box1').css({'background-color': '#00A8E8', 'font-size': '88%'});
         $('.box2').css('background-color', '#C4FFF9');  
         $('.box3').css('background-color', '#00A8E8');
         $('.box4').css('background-color', '#C4FFF9');
