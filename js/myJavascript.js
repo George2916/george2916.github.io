@@ -113,7 +113,7 @@ function mySetupFunction1() {
     if ($(window).width() <= 575) {
         $('.YouTubeVideo').css({'width': '306px', 'height': '168.75px'});
         $('.box1').css({'background-color': '#00A8E8', 'font-size': '78%'});
-        $('.box2').css('background-color', '#C4FFF9');  
+        $('.box2').css({'background-color': '#C4FFF9', 'font-size': '78%'});  
         $('.box3').css('background-color', '#00A8E8');
         $('.box4').css('background-color', '#C4FFF9');
         $('.box5').css('background-color', '#00A8E8');
@@ -166,7 +166,7 @@ function mySetupFunction1() {
     else if ($(window).width() <=767) {
         $('.YouTubeVideo').css({'width': '306px', 'height': '196.63px'});
         $('.box1').css({'background-color': '#00A8E8', 'font-size': '88%'});
-        $('.box2').css('background-color', '#C4FFF9');  
+        $('.box2').css({'background-color': '#C4FFF9', 'font-size': '88%'});  
         $('.box3').css('background-color', '#00A8E8');
         $('.box4').css('background-color', '#C4FFF9');
         $('.box5').css('background-color', '#00A8E8');
@@ -218,7 +218,7 @@ function mySetupFunction1() {
     else if ($(window).width() <= 991) {
         $('.YouTubeVideo').css({'width': '310px', 'height': '196.63px'});
         $('.box1').css({'background-color': '#00A8E8', 'font-size': '78%'});
-        $('.box2').css({'background-color': '#C4FFF9', 'font-size': '92%'});
+        $('.box2').css({'background-color': '#C4FFF9', 'font-size': '78%'});
         $('.box3').css({'background-color': '#C4FFF9', 'font-size': '92%'});
         $('.box4').css({'background-color': '#00A8E8', 'font-size': '92%'});
         $('.box5').css({'background-color': '#00A8E8', 'font-size': '92%'});
@@ -270,7 +270,7 @@ function mySetupFunction1() {
     else if ($(window).width() <= 1199) {
         $('.YouTubeVideo').css({'width': '310px', 'height': '196.63px'});
         $('.box1').css({'background-color': '#00A8E8', 'font-size': '85%'});
-        $('.box2').css({'background-color': '#C4FFF9', 'font-size': '100%'});  
+        $('.box2').css({'background-color': '#C4FFF9', 'font-size': '85%'});  
         $('.box3').css({'background-color': '#C4FFF9', 'font-size': '100%'});
         $('.box4').css({'background-color': '#00A8E8', 'font-size': '100%'});
         $('.box5').css({'background-color': '#00A8E8', 'font-size': '100%'});
