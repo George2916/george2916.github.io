@@ -451,6 +451,10 @@ table {
 
 /*STYLING FOR anecdotes.html*/
 
+#anecedotesHeader{
+    font-family: 'Permanent Marker', arial;
+}
+
 .anecdotesBackground1{
     border-width: 0px 0px 1px 0px;
     border-style: solid;
