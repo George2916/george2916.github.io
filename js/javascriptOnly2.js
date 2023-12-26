@@ -852,7 +852,7 @@ function myfunction1() {
     
     ques5G.innerHTML = '&nbspHow far from home<br>&nbsp;will you go to<br>&nbsp;college?<br>&nbsp;a. < 50 miles<br>&nbsp;b.  > 50 miles';
     CD5G.innerHTML = '&nbsp;b';
-    HK5G.innerHTML = '&nbsp;b / b';
+    HK5G.innerHTML = '&nbsp;b';
     AM5G.innerHTML = '&nbsp;b / b';
     AC5G.innerHTML = '&nbsp;b / a';
     SJ5G.innerHTML = '&nbsp;a / b';
