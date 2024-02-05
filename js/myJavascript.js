@@ -106,7 +106,6 @@ function mySetupFunctionX() {
 $(document).ready(mySetupFunctionX);
 $(window).resize(mySetupFunctionX);
 
-
 /* JQUERY AND JAVASCRIPT FOR 11MISCELLANEOUS PAGE AND FAMILY TREE*/
 
 function mySetupFunction1() {
@@ -382,10 +381,6 @@ function mySetupFunction1() {
 
 $(document).ready(mySetupFunction1);
 $(window).resize(mySetupFunction1);
-
-
-
-
 
 /* JQUERY FOR QUESTIONNAIRE */
 
@@ -1038,18 +1033,28 @@ function mySetupFunction2() {
 $(document).ready(mySetupFunction2);
 $(window).resize(mySetupFunction2);
 
-
-
 /* cause modal #22 on Aidan's page to randomly display one of three photos */ 
 function chooseWeddingPicture() {
     
     var weddingPictures = ["images/2018august(1).JPG", "images/2018august(2).JPG", "images/2018august(3).JPG"];
     
-     var randomNum = Math.floor(Math.random() * weddingPictures.length);
+    var randomNum = Math.floor(Math.random() * weddingPictures.length);
    
-     document.querySelector("#mySpecialModal").src = weddingPictures[randomNum];
+    document.querySelector("#mySpecialModal").src = weddingPictures[randomNum];
 }
     
 chooseWeddingPicture();
+
+/* cause modal #25 on Aidan's page to randomly display one of two photos */ 
+function chooseCaryPicture() {
+    
+    var caryPictures = ["images/2024feb(1).JPG", "images/2024feb(2).JPG"];
+    
+    var randomNum = Math.floor(Math.random() * caryPictures.length);
+   
+    document.querySelector("#mySpecialModal25").src = caryPictures[randomNum];
+}
+    
+chooseCaryPicture();
 
 
