@@ -1056,5 +1056,3 @@ function chooseCaryPicture() {
 }
     
 chooseCaryPicture();
-
-

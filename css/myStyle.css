@@ -44,6 +44,12 @@ a:hover {
     border-top: 1px solid #00A8E8;
 }
 
+@media only screen and (max-width: 425px) {
+    .AAA{
+        font-size: 75%;
+    }
+}
+
 .btn-prev, .btn-next{
     background-color: #00A8E8;
     color: #C4FFF9;
@@ -489,5 +495,4 @@ table {
     font-family: 'Permanent Marker', arial;
     padding: 0px 60px;
     text-align: center;
-    
 }
